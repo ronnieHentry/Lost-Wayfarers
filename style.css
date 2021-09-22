@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* navbar styling */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: rgba(44, 41, 41, 0.911);
+    flex-wrap: wrap;
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+    padding: 2px;
+}
+
+.hamburger {
+    display: none;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.nav-ul li a {
+    display: inline-block;
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+/* top background */
+
+.first {
+    background: url(bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* top content */
+
+.top-text {
+    position: relative;
+    top: 40%;
+    text-align: center;
+    font-size: clamp(90px, 11vw, 11vw);
+}
+
+.discover {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(227, 247, 218);
+}
+
+.theworld {
+    text-align: center;
+    font-size: clamp(60px, 6vw, 11vw);
+    font-family: 'Lobster', cursive;
+    color: rgb(248, 219, 219);
+    overflow: hidden;
+    padding: 2px;
+}
+
+/* bottom background */
+
+.second {
+    background-color: rgb(240, 240, 220);
+    /* border: 2px solid red; */
+    height: 175vh;
+    width: 100%;
+    z-index: 5;
+    overflow: hidden;
+}
+
+/* bottom top content */
+
+.sec-top {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid brown; */
+    text-align: center;
+    overflow: hidden;
+}
+
+.we-have {
+    position: relative;
+    height: 30%;
+    width: 100%;
+    font-weight: 600;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(10px, 3.5vw, 3.5vw);
+}
+
+.lorem {
+    position: relative;
+    height: 70%;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+    color: rgb(148, 121, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(9px, 1.5vw, 1.5vw);
+}
+
+/* bottom low background */
+
+.sec-low {
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    overflow: hidden;
+}
+
+/* bottom low tiles */
+
+.row {
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 0vw 8vw;
+}
+
+@media screen and (min-width: 1000px) {
+    .row2 {
+        position: relative;
+        top: -8%;
+    }
+}
+
+.tile {
+    height: 50%;
+    width: 25%;
+    border-radius: 15px;
+    transition: 0.2s ease;
+    margin: auto;
+}
+
+.tile:hover {
+    height: 52%;
+    width: 26.5%;
+}
+
+/* tiles inner content */
+
+/* dates of trip */
+
+.dates {
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 85%;
+    border-radius: 20px;
+    background-color: coral;
+    position: relative;
+    top: 6%;
+    color: white;
+    font-size: clamp(12px, 0.30vw, 0.30vw);
+}
+
+/* destination name */
+
+.destination {
+    position: relative;
+    top: 34%;
+    text-align: center;
+    height: 40%;
+    width: 100%;
+    color: white;
+    font-size: clamp(15px, 0.45vw, 0.45vw);
+}
+
+/* see more button */
+
+.btn {
+    display: flex;
+    position: relative;
+    height: 13%;
+    width: 27%;
+    background: rgb(241, 39, 39);
+    top: 25%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: clamp(10px, 1vw, 1vw);
+}
+
+.Malshej-Ghat {
+    background: url(Malshej-Ghat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Malvan {
+    background: url(Malvan.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.Devkund {
+    background: url(Devkund.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.Sandhan-valley {
+    background: url(Sandhan-valley.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.Kalsubai-Peak {
+    background: url(Kalsubai-Peak.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.Harishchandragad {
+    background: url(Harishchandragad.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* footer */
+
+.foot {
+    /* border: 2px solid red; */
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    padding: 0 200px;
+}
+
+/* footer logo */
+
+.first-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.second-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.second-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.connect-with-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    position: relative;
+    top: 26%;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 10vw;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    .hamburger {
+        display: block;
+        padding-right: 30px;
+    }
+    .nav-ul.show {
+        display: flex;
+    }
+    .second {
+        background-color: rgb(241, 241, 166);
+        /* border: 2px solid red; */
+        height: 400vh;
+        width: 100%;
+        z-index: 5;
+        overflow: hidden;
+    }
+    .sec-top {
+        height: 5%;
+        width: 100%;
+        /* border: 2x solid brown; */
+        text-align: center;
+        overflow: hidden;
+    }
+    .sec-low {
+        height: 95%;
+        width: 100%;
+    }
+    .row {
+        height: 50%;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .tile {
+        height: 25%;
+        width: 45%;
+    }
+    .tile:hover {
+        height: 25%;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    .hamburger {
+        display: block;
+        padding-right: 30px;
+    }
+    .nav-ul.show {
+        display: flex;
+    }
+    .second {
+        background-color: rgb(243, 243, 191);
+        /* border: 2px solid red; */
+        height: 400vh;
+        width: 100%;
+        z-index: 5;
+        overflow: hidden;
+    }
+    .sec-top {
+        height: 5%;
+        width: 100%;
+        /* border: 2x solid brown; */
+        text-align: center;
+        overflow: hidden;
+    }
+    .sec-low {
+        height: 95%;
+        width: 100%;
+    }
+    .row {
+        height: 50%;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .tile {
+        height: 20%;
+        width: 70%;
+    }
+    .tile:hover {
+        height: 20%;
+        width: 70%;
+    }
+    .dates {
+        width: 70%;
+    }
+    .foot {
+        flex-direction: column;
+        height: 50vh;
+    }
+    .first-footer {
+        height: 50%;
+    }
+    .small-logo {
+        height: 12vw;
+        width: 18vw;
+    }
+    .social-media-icons {
+        padding: 0vw 20vw;
+    }
+    .connect-with-us {
+        top: 20%;
+    }
+}
