@@ -57,7 +57,7 @@ nav {
 /* top background */
 
 .first {
-    background: url(bg3.jpg);
+    background: url(./images/bg3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -231,37 +231,37 @@ nav {
 }
 
 .Malshej-Ghat {
-    background: url(Malshej-Ghat.jpg);
+    background: url(./images/Malshej-Ghat.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .Malvan {
-    background: url(Malvan.jpg);
+    background: url(./images/Malvan.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .Devkund {
-    background: url(Devkund.jpg);
+    background: url(./images/Devkund.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .Sandhan-valley {
-    background: url(Sandhan-valley.jpg);
+    background: url(./images/Sandhan-valley.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .Kalsubai-Peak {
-    background: url(Kalsubai-Peak.jpg);
+    background: url(./images/Kalsubai-Peak.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 .Harishchandragad {
-    background: url(Harishchandragad.jpg);
+    background: url(./images/Harishchandragad.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
